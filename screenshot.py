@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
 from PIL import ImageGrab
-import datetime
 
 app = Flask(__name__)
 
