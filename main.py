@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/screenshot", methods=["POST", "GET"])
+@app.route("/screenshot", methods=["POST", "GET"]) 
 def screenshot():
     if request.method == "POST":
         try:
@@ -21,8 +21,5 @@ def screenshot():
         except:
             error = "An error ocurred, please verify the body of your request is correct"
             return error, 500
-    else:
+    elif request.method == "GET": 
         return render_template("screenshot.html")
-
-
-
