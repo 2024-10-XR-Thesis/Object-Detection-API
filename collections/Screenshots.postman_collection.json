@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "7eddb85c-62c7-469f-a355-f78b2e8b6de5",
+		"name": "Screenshots",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17535481"
+	},
+	"item": [
+		{
+			"name": "Take screenshot",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"screenshot_name\": \"prueba/screenshot\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/screenshot",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"screenshot"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
