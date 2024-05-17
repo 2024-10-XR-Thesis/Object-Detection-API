@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 from PIL import ImageGrab
 
 app = Flask(__name__)
@@ -10,17 +10,21 @@ def home():
 @app.route("/screenshot", methods=["POST", "GET"]) 
 def screenshot():
     if request.method == "POST":
+        data = request.get_json()
+        ss_key = "screenshot_name"
         try:
-            data = request.get_json()
-            ss_name = data["screenshot_name"]
+            ss_name = data[ss_key]
             screenshot = ImageGrab.grab()
             screenshot.save("{fname}.png".format(fname=ss_name))
             screenshot.close()
-            result = "Screenshot with name {fname} created".format(fname=ss_name)
+            result = "Screenshot with name '{fname}' created".format(fname=ss_name)
             return result, 201
         except:
-            # FIXME: manejar errores adecuadamente
-            error = "An error ocurred, please verify the body of your request is correct"
-            return error, 500
+            if ss_key not in data:
+                error = "The body of your request did not have screennshot_name key, please try again"
+                return error, 400
+            else:
+                error = "Internal server error"
+                return error, 500
     elif request.method == "GET": 
         return render_template("screenshot.html")
