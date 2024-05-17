@@ -11,4 +11,4 @@
 Nota: En caso de que la dirección 127.0.0.1:5000 no esté disponible, usar la arrojada por consola
    
 
-Esta app fue creada haciendo uso de [Flask](https://flask.palletsprojects.com/en/3.0.x/) <img alt="flask logo" height="15" src="https://static-00.iconduck.com/assets.00/flask-icon-2048x1826-nxzeqh6a.png">
+Esta app fue creada haciendo uso de [Flask](https://flask.palletsprojects.com/en/3.0.x/) <img alt="flask logo" height="15" src="https://static-00.iconduck.com/assets.00/flask-icon-2048x1826-nxzeqh6a.png"> y [Pillow](https://pypi.org/project/pillow/) <img alt="pillow logo" height="15" src="https://python-pillow.org/assets/images/pillow-logo-248x250.png">
