@@ -19,7 +19,7 @@ def screenshot():
             result = "Screenshot with name {fname} created".format(fname=ss_name)
             return result, 201
         except:
-            error = "An error ocurred, please verify the body of your request fulfills is correct"
+            error = "An error ocurred, please verify the body of your request is correct"
             return error, 500
     else:
         return render_template("screenshot.html")
