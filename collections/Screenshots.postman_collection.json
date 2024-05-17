@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"screenshot_name\": \"prueba/screenshot\"\n}",
+					"raw": "{\n    \"screenshot_name\": \"screenshot\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
