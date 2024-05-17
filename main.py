@@ -13,7 +13,7 @@ def screenshot():
         try:
             data = request.get_json()
             ss_name = data["screenshot_name"]
-            screenshot = ImageGrab.grab(bbox=(100, 100, 500, 500)) #FIXME: adjust ss size
+            screenshot = ImageGrab.grab()
             screenshot.save("{fname}.png".format(fname=ss_name))
             screenshot.close()
             result = "Screenshot with name {fname} created".format(fname=ss_name)
