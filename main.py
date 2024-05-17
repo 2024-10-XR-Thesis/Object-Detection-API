@@ -19,6 +19,7 @@ def screenshot():
             result = "Screenshot with name {fname} created".format(fname=ss_name)
             return result, 201
         except:
+            # FIXME: manejar errores adecuadamente
             error = "An error ocurred, please verify the body of your request is correct"
             return error, 500
     elif request.method == "GET": 
