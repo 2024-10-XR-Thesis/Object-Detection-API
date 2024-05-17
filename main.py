@@ -23,8 +23,5 @@ def screenshot():
             if ss_key not in data:
                 error = "The body of your request did not have screennshot_name key, please try again"
                 return error, 400
-            else:
-                error = "Internal server error"
-                return error, 500
     elif request.method == "GET": 
         return render_template("screenshot.html")
