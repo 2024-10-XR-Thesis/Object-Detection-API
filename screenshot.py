@@ -10,13 +10,17 @@ def home():
 @app.route("/screenshot", methods=["POST", "GET"])
 def screenshot():
     if request.method == "POST":
-        data = request.get_json()
-        ss_name = data["screenshot_name"]
-        screenshot = ImageGrab.grab(bbox=(100, 100, 500, 500)) #FIXME: adjust ss size
-        screenshot.save("{fname}.png".format(fname=ss_name))
-        screenshot.close()
-        result = "Screenshot with name {fname} created".format(fname=ss_name)
-        return result, 201
+        try:
+            data = request.get_json()
+            ss_name = data["screenshot_name"]
+            screenshot = ImageGrab.grab(bbox=(100, 100, 500, 500)) #FIXME: adjust ss size
+            screenshot.save("{fname}.png".format(fname=ss_name))
+            screenshot.close()
+            result = "Screenshot with name {fname} created".format(fname=ss_name)
+            return result, 201
+        except:
+            error = "An error ocurred, please verify the body of your request fulfills is correct"
+            return error, 500
     else:
         return render_template("screenshot.html")
 
