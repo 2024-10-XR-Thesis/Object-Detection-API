@@ -1,6 +1,6 @@
 ## Instrucciones 
 1. Instalar los paquetes necesarios con `pip install -r requirements.txt` 
-2. Correr el comando `flask --app main run`
+2. Correr la aplicación con `flask --app main run`
 3. Hacer una petición de POST a la ruta <http://127.0.0.1:5000/screenshot> con el siguiente cuerpo (ejemplo):
 ```json
 {
