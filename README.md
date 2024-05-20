@@ -1,11 +1,12 @@
 ## Instrucciones 
 1. Instalar los paquetes necesarios con `pip install -r requirements.txt` 
-2. Correr la aplicación con `flask --app app run`
-3. Hacer una petición de POST a la ruta <http://127.0.0.1:5000/screenshot> con el siguiente cuerpo (ejemplo):
-```json
-{
-    "screenshot_name": "screenshot"
-}
-```   
+2. Correr la aplicación con `flask --app main run`
+3. Hacer una petición de POST a la ruta <http://127.0.0.1:5000/detect> con un cuerpo vacío
 
-Esta app fue creada haciendo uso de [Flask](https://flask.palletsprojects.com/en/3.0.x/) <img alt="flask logo" height="15" src="https://static-00.iconduck.com/assets.00/flask-icon-2048x1826-nxzeqh6a.png"> y [Pillow](https://pypi.org/project/pillow/) <img alt="pillow logo" height="15" src="https://python-pillow.org/assets/images/pillow-logo-248x250.png">
+Esta app fue creada haciendo uso de las siguientes herramientas:
+
+<img alt="flask logo" height="15" src="https://static-00.iconduck.com/assets.00/flask-icon-2048x1826-nxzeqh6a.png">  [Flask](https://flask.palletsprojects.com/en/3.0.x/) 
+<img alt="pillow logo" height="15" src="https://python-pillow.org/assets/images/pillow-logo-248x250.png"> [Pillow](https://pypi.org/project/pillow/) 
+<img alt="eden ai logo" height="15" src="https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F858514%2Fe693aabe-1ba7-4dcd-8391-16f4f1b27f1e.png"> [Eden AI](https://www.edenai.co/)
+
+Y otras librerías...
