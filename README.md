@@ -5,8 +5,8 @@
 
 Esta app fue creada haciendo uso de las siguientes herramientas:
 
-<img alt="flask logo" height="15" src="https://static-00.iconduck.com/assets.00/flask-icon-2048x1826-nxzeqh6a.png">  [Flask](https://flask.palletsprojects.com/en/3.0.x/) 
-<img alt="pillow logo" height="15" src="https://python-pillow.org/assets/images/pillow-logo-248x250.png"> [Pillow](https://pypi.org/project/pillow/) 
-<img alt="eden ai logo" height="15" src="https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F858514%2Fe693aabe-1ba7-4dcd-8391-16f4f1b27f1e.png"> [Eden AI](https://www.edenai.co/)
+<img alt="flask logo" height="15" src="https://static-00.iconduck.com/assets.00/flask-icon-2048x1826-nxzeqh6a.png">  [Flask](https://flask.palletsprojects.com/en/3.0.x/) <br>
+<img alt="pillow logo" height="15" src="https://python-pillow.org/assets/images/pillow-logo-248x250.png"> [Pillow](https://pypi.org/project/pillow/) <br>
+<img alt="eden ai logo" height="15" src="https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F858514%2Fe693aabe-1ba7-4dcd-8391-16f4f1b27f1e.png"> [Eden AI](https://www.edenai.co/) <br>
 
 Y otras librerías...
