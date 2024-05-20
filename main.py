@@ -2,6 +2,7 @@ from flask import Flask, render_template, request
 from PIL import ImageGrab
 import requests
 import json
+import os
 
 app = Flask(__name__)
 
@@ -33,7 +34,9 @@ def detetc():
             result = json.loads(response.text)
             items = result['amazon']['items']
             labels = [i['label'] for i in items]
-        
+
+            os.remove(ss_full_name)
+
             return labels, 200
         except:
             if ss_key not in data:
