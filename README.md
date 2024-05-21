@@ -1,4 +1,4 @@
-# Object Detection API 🍎
+# Object Detection API
 Esta API está dedicada a reconocer objetos dentro de una captura de pantalla tomada automáticamente al momento de hacer la petición.
 
 ## Instrucciones 
@@ -9,7 +9,6 @@ Esta API está dedicada a reconocer objetos dentro de una captura de pantalla to
 Por si acaso, en la carpeta [/collections](https://github.com/2024-10-VR-Thesis/Object-Detection-API/tree/main/collections) se encuentra una colección de Postman que puede ser usada para probar su uso.
 
 ## Información adicional
-
 Esta app fue creada haciendo uso de las siguientes herramientas:
 
 <img alt="flask logo" height="15" src="https://static-00.iconduck.com/assets.00/flask-icon-2048x1826-nxzeqh6a.png">  [Flask](https://flask.palletsprojects.com/en/3.0.x/) <br>
