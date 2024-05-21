@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "",
+					"raw": "{\n    \n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -43,7 +43,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "",
+							"raw": "{\n    \n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -75,7 +75,7 @@
 						},
 						{
 							"key": "Date",
-							"value": "Mon, 20 May 2024 22:04:21 GMT"
+							"value": "Tue, 21 May 2024 16:33:07 GMT"
 						},
 						{
 							"key": "Content-Type",
@@ -83,7 +83,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "148"
+							"value": "107"
 						},
 						{
 							"key": "Connection",
@@ -91,7 +91,7 @@
 						}
 					],
 					"cookie": [],
-					"body": "[\n    \"Animal\",\n    \"Canine\",\n    \"Dog\",\n    \"Mammal\",\n    \"Pet\",\n    \"Puppy\",\n    \"Computer\",\n    \"Electronics\",\n    \"Pc\",\n    \"Golden Retriever\",\n    \"Screen\",\n    \"Computer Hardware\",\n    \"Hardware\",\n    \"Monitor\"\n]"
+					"body": "[\n    \"Apple\",\n    \"Food\",\n    \"Fruit\",\n    \"Plant\",\n    \"Produce\",\n    \"Computer Hardware\",\n    \"Electronics\",\n    \"Hardware\",\n    \"Monitor\",\n    \"Screen\"\n]"
 				}
 			]
 		}
