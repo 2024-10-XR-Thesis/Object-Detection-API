@@ -6,6 +6,9 @@ import json
 
 app = Flask(__name__)
 
+with open("api_key.json", encoding="utf-8") as json_file:
+    API_KEY = json.load(json_file)["api_key"]
+
 @app.route("/")
 def home():
     return render_template("index.html")
@@ -13,7 +16,7 @@ def home():
 @app.route("/detect", methods=["POST", "GET"]) 
 def detect():
     if request.method == "POST":
-        headers = {"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiZjg4ZWMyNDUtOGNhMi00MGE2LWE4NzEtMWM5ZmU0ZmE5YWNlIiwidHlwZSI6ImFwaV90b2tlbiJ9.BV9MP-DFCnUdMlrkkN9E-nWR_ThUmTlI11-eBlguDRM"}
+        headers = {"Authorization": "Bearer " + API_KEY}
         url = "https://api.edenai.run/v2/image/object_detection"
         data = {
             "providers": "amazon",
