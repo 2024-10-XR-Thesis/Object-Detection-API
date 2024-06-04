@@ -7,7 +7,7 @@ Esta API está dedicada a reconocer objetos dentro de una captura de pantalla to
 2. Correr la aplicación con `flask --app main run`
 3. Hacer una petición de POST a la ruta <http://127.0.0.1:5000/detect> con un cuerpo vacío
 
-Por si acaso, en la carpeta [/collections](https://github.com/2024-10-VR-Thesis/Object-Detection-API/tree/main/collections) se encuentra una colección de Postman que puede ser usada para probar su uso.
+Por si acaso, en la carpeta [/collections](https://github.com/2024-10-VR-Thesis/Object-Detection-API/tree/main/collections) se encuentra una colección de Postman que puede ser usada como guía.
 
 ## Información adicional
 Esta app fue creada haciendo uso, principalmente, de las siguientes herramientas:
