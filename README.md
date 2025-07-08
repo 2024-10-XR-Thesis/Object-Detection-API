@@ -12,6 +12,6 @@ Por si acaso, en la carpeta [/collections](https://github.com/2024-10-VR-Thesis/
 ## Información adicional
 Esta app fue creada haciendo uso, principalmente, de las siguientes herramientas:
 
-<img alt="flask logo" height="15" src="https://static-00.iconduck.com/assets.00/flask-icon-2048x1826-nxzeqh6a.png">  [Flask](https://flask.palletsprojects.com/en/3.0.x/) <br>
+<img alt="flask logo" height="15" src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logos/flask-qvsfwhwywucb6zv0d7ce.png/flask-1byb2jlw6nwim4nx2248xg.png?_a=DATAdtAAZAA0">  [Flask](https://flask.palletsprojects.com/en/3.0.x/) <br>
 <img alt="pillow logo" height="15" src="https://raw.githubusercontent.com/2024-10-XR-Thesis/.github/refs/heads/main/assets/pillow_logo.png"> [Pillow](https://pypi.org/project/pillow/) <br>
 <img alt="eden ai logo" height="15" src="https://raw.githubusercontent.com/2024-10-XR-Thesis/.github/refs/heads/main/assets/eden_AI_logo.png"> [Eden AI](https://www.edenai.co/) <br>
